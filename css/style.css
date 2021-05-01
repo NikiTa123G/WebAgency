@@ -401,10 +401,15 @@ body.lock {
     left: 50%;
   }
 }
-@media (max-width: 355px) {
+@media (max-width: 410px) {
   .global-titele p {
     left: 39%;
     font-size: 48px;
+    white-space: normal;
+  }
+}
+@media (max-width: 355px) {
+  .global-titele p {
     white-space: normal;
   }
 }
