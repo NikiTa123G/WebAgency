@@ -405,7 +405,6 @@ body.lock {
   .global-titele p {
     left: 39%;
     font-size: 48px;
-    white-space: normal;
   }
 }
 @media (max-width: 355px) {
