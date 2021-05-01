@@ -397,10 +397,11 @@ body.lock {
 }
 @media (max-width: 500px) {
   .global-titele p {
+    font-size: 58px;
     left: 50%;
   }
 }
-@media (max-width: 408px) {
+@media (max-width: 355px) {
   .global-titele p {
     left: 39%;
     font-size: 48px;
