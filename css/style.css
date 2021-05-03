@@ -403,13 +403,7 @@ body.lock {
 }
 @media (max-width: 410px) {
   .global-titele p {
-    left: 39%;
-    font-size: 48px;
-  }
-}
-@media (max-width: 355px) {
-  .global-titele p {
-    white-space: normal;
+    display: none;
   }
 }
 .global-titele.home {
