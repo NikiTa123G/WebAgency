@@ -406,7 +406,7 @@ body.lock {
     left: 50%;
   }
 }
-@media (max-width: 410px) {
+@media (max-width: 425px) {
   .global-titele p {
     display: none;
   }
