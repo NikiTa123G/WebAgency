@@ -11,7 +11,7 @@ body{
 *{
 	box-sizing: border-box;
 	outline: none;
-	text-decoration: none;
+	text-decoration: none;-webkit-text-decoration: none;
 	&::selection {
 	   background: transparent;
 	}
@@ -21,6 +21,9 @@ body{
 	padding: 10px 0;
 	position: relative;
 	display: flex;
+	-ms-display: flex;
+	-moz-display: flex;
+	-webkit-display: flex;
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
@@ -64,6 +67,7 @@ body{
 			width: 100%;
 			height: 100vh;
 			object-fit: cover;
+			-o-object-fit: cover;
 		}
 	}
 	.header-wrap{
@@ -97,6 +101,9 @@ body{
 			margin: 20px 0 10px;
 			padding: 0 10px;
 			display: flex;
+			-ms-display: flex;
+			-moz-display: flex;
+			-webkit-display: flex;
 			justify-content: space-between;
 			flex-wrap: wrap;
 			-ms-flex-wrap: wrap;
@@ -273,6 +280,9 @@ body{
 		max-width: 1500px;
 		margin: 10px auto;
 		display: flex;
+		-ms-display: flex;
+		-moz-display: flex;
+		-webkit-display: flex;
 		justify-content: flex-end;
 		transition: .6s;
 		overflow: hidden;
@@ -307,6 +317,7 @@ body{
 				display: block;
 				width: 100%;
 				text-decoration: none;
+				-webkit-text-decoration: none;
 				color: #000;
 				transition: .3s;
 				@media (min-width: 768px) {
@@ -413,6 +424,9 @@ body{
 		margin-top: 90px;
 		position: relative;
 		display: flex;
+		-ms-display: flex;
+		-moz-display: flex;
+		-webkit-display: flex;
 		justify-content: space-between;
 		align-items: center;
 		flex-wrap: wrap;
@@ -445,6 +459,9 @@ body{
 	.main-home{
 		margin-top: 90px;
 		display: flex;
+		-ms-display: flex;
+		-moz-display: flex;
+		-webkit-display: flex;
 		justify-content: space-between;
 		flex-wrap: wrap;
 		.home-section{
@@ -453,6 +470,9 @@ body{
 			max-width: 340px;
 			position: relative;
 			display: flex;
+			-ms-display: flex;
+			-moz-display: flex;
+			-webkit-display: flex;
 			flex-wrap: wrap;
 			transition: .5s;
 			&:hover{
@@ -487,6 +507,9 @@ body{
 				opacity: 0;
 				transition: .5s;
 				display: flex;
+				-ms-display: flex;
+				-moz-display: flex;
+				-webkit-display: flex;
 				justify-content: flex-end;
 				justify-content: space-between;
 				align-items: center;
@@ -504,6 +527,7 @@ body{
 				}
 				.linck-arrow{
 					text-decoration: none;
+					-webkit-text-decoration: none;
 					margin-right: 30px;
 					color: #fff;
 					.icon-arrow{}
@@ -523,6 +547,9 @@ body{
 		height: 100%;
 		padding: 120px 15px;
 		display: flex;
+		-ms-display: flex;
+		-moz-display: flex;
+		-webkit-display: flex;
 		align-items: center;
 		justify-content: center;
 		.motto-bg{
@@ -543,9 +570,13 @@ body{
 				left: 0;
 				top: 0;
 				display: flex;
+				-ms-display: flex;
+				-moz-display: flex;
+				-webkit-display: flex;
 				width: 100%;
 				height: 100%;
 				object-fit: cover;
+				-o-object-fit: cover;
 			}
 		}
 		.motto{
@@ -607,6 +638,9 @@ body{
 		.wrap{
 			padding: 10px;
 			display: flex;
+			-ms-display: flex;
+			-moz-display: flex;
+			-webkit-display: flex;
 			justify-content: space-between;
 			flex-wrap: wrap;
 			.development-box{
@@ -624,6 +658,9 @@ body{
 					top: 50%;
 					transform: translate(-50%, -60%);
 					display: flex;
+					-ms-display: flex;
+					-moz-display: flex;
+					-webkit-display: flex;
 					flex-wrap: wrap;
 					z-index: 5;
 					width: 67%;
@@ -643,6 +680,9 @@ body{
 						width: 100%;
 						align-self: flex-end;
 						display: flex;
+						-ms-display: flex;
+						-moz-display: flex;
+						-webkit-display: flex;
 						justify-content: space-between;
 						align-items: center;
 						.development-box--btn{
@@ -687,6 +727,9 @@ body{
 					img{
 						transition: 5s;
 						display: flex;
+						-ms-display: flex;
+						-moz-display: flex;
+						-webkit-display: flex;
 						width: 100%;
 						height: 100%;
 					}
@@ -697,6 +740,9 @@ body{
 	.search_inf{
 		margin-top: 90px;
 		display: flex;
+		-ms-display: flex;
+		-moz-display: flex;
+		-webkit-display: flex;
 		flex-wrap: wrap;
 		justify-content: space-between;
 		.search_inf-text{
@@ -710,7 +756,11 @@ body{
 			margin: 0 auto;
 			img{
 				display: flex;
+				-ms-display: flex;
+				-moz-display: flex;
+				-webkit-display: flex;
 				object-fit: cover;
+				-o-object-fit: cover;
 				margin: 10px auto;
 			}
 		}
@@ -724,6 +774,9 @@ body{
 	}
 	.works-wrap-imges{
 		display: flex;
+		-ms-display: flex;
+		-moz-display: flex;
+		-webkit-display: flex;
 		flex-wrap: wrap;
 		.works-img{
 			overflow: hidden;
@@ -774,6 +827,9 @@ body{
 				opacity: 0;
 				background: rgba(246, 174, 72, .0);
 				display: flex;
+				-ms-display: flex;
+				-moz-display: flex;
+				-webkit-display: flex;
 				align-items: center;
 				justify-content: center;
 				flex-direction: column;
@@ -795,7 +851,11 @@ body{
 					transition: 4s;
 					width: 100%;
 					display: flex;
+					-ms-display: flex;
+					-moz-display: flex;
+					-webkit-display: flex;
 					object-fit: cover;
+					-o-object-fit: cover;
 				}
 			}
 		}
@@ -804,6 +864,9 @@ body{
 		background: inherit;
 		padding: 25px 10px;
 		display: flex;
+		-ms-display: flex;
+		-moz-display: flex;
+		-webkit-display: flex;
 		justify-content: center;
 		.work-btn{
 			cursor: pointer;
@@ -831,6 +894,9 @@ body{
 	.adaptete-content{
 		position: relative;
 		display: flex;
+		-ms-display: flex;
+		-moz-display: flex;
+		-webkit-display: flex;
 		justify-content: space-between;
 		flex-wrap: wrap;
 		.adaptete-inner--text{
@@ -868,6 +934,9 @@ body{
 					transform: translateX(-50%);
 				}
 				display: flex;
+				-ms-display: flex;
+				-moz-display: flex;
+				-webkit-display: flex;
 				align-items: flex-end;
 				width: 1500px;
 				height: 100%;
@@ -909,6 +978,7 @@ body{
 		img{
 			width: 100%;
 			object-fit: cover;
+			-o-object-fit: cover;
 			position: absolute;
 			left: 0;
 			top: 0;
@@ -920,11 +990,17 @@ body{
 		z-index: 20;
 		// margin-top: 80px;
 		display: flex;
+		-ms-display: flex;
+		-moz-display: flex;
+		-webkit-display: flex;
 		justify-content: space-between;
 		align-items: flex-start;
 		flex-wrap: wrap;
 		.trade_in-wrap--box{
 			display: flex;
+			-ms-display: flex;
+			-moz-display: flex;
+			-webkit-display: flex;
 			flex-wrap: wrap;
 			max-width: 340px;
 			padding: 0 5px;
@@ -934,6 +1010,9 @@ body{
 				margin: 0 0 15px;
 				height: 60px;
 				display: flex;
+				-ms-display: flex;
+				-moz-display: flex;
+				-webkit-display: flex;
 				align-items: center;
 				color: #fff;
 				img{
@@ -950,6 +1029,9 @@ body{
 		.trade_in-wrap--btn{
 			width: 100%;
 			display: flex;
+			-ms-display: flex;
+			-moz-display: flex;
+			-webkit-display: flex;
 			justify-content: center;
 			.trade_in-btn{
 				position: relative;
@@ -979,6 +1061,9 @@ body{
 	margin: 80px 0;
 	.main-careful{
 		display: flex;
+		-ms-display: flex;
+		-moz-display: flex;
+		-webkit-display: flex;
 		justify-content: space-between;
 		flex-wrap: wrap;
 		.careful-inner--text{
@@ -996,7 +1081,11 @@ body{
 					height: auto;
 					width: 100%;
 					display: flex;
+					-ms-display: flex;
+					-moz-display: flex;
+					-webkit-display: flex;
 					object-fit: cover;
+					-o-object-fit: cover;
 				}
 			}
 		}
@@ -1011,6 +1100,9 @@ body{
 		position: relative;
 		z-index: 20;
 		display: flex;
+		-ms-display: flex;
+		-moz-display: flex;
+		-webkit-display: flex;
 		justify-content: space-between;
 		flex-wrap: wrap;
 		.footer-inner--text{
@@ -1052,6 +1144,9 @@ body{
 			}
 			max-width: 500px;
 			display: flex;
+			-ms-display: flex;
+			-moz-display: flex;
+			-webkit-display: flex;
 			flex-wrap: wrap;
 			.footer-inp{
 				font-size: 18px;
@@ -1128,7 +1223,11 @@ body{
 			height: 100%;
 			width: 100%;
 			object-fit: cover;
+			-o-object-fit: cover;
 			display: flex;
+			-ms-display: flex;
+			-moz-display: flex;
+			-webkit-display: flex;
 		}
 	}
 }

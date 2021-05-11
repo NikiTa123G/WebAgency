@@ -12,6 +12,7 @@ body.lock {
   box-sizing: border-box;
   outline: none;
   text-decoration: none;
+  -webkit-text-decoration: none;
 }
 *::selection {
   background: transparent;
@@ -21,6 +22,9 @@ body.lock {
   padding: 10px 0;
   position: relative;
   display: flex;
+  -ms-display: flex;
+  -moz-display: flex;
+  -webkit-display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -68,6 +72,7 @@ body.lock {
   width: 100%;
   height: 100vh;
   object-fit: cover;
+  -o-object-fit: cover;
 }
 @media (max-width: 500px) {
   .header .header-bg source,
@@ -117,6 +122,9 @@ body.lock {
   margin: 20px 0 10px;
   padding: 0 10px;
   display: flex;
+  -ms-display: flex;
+  -moz-display: flex;
+  -webkit-display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   -ms-flex-wrap: wrap;
@@ -296,6 +304,9 @@ body.lock {
   max-width: 1500px;
   margin: 10px auto;
   display: flex;
+  -ms-display: flex;
+  -moz-display: flex;
+  -webkit-display: flex;
   justify-content: flex-end;
   transition: 0.6s;
   overflow: hidden;
@@ -332,6 +343,7 @@ body.lock {
   display: block;
   width: 100%;
   text-decoration: none;
+  -webkit-text-decoration: none;
   color: #000;
   transition: 0.3s;
 }
@@ -445,6 +457,9 @@ body.lock {
   margin-top: 90px;
   position: relative;
   display: flex;
+  -ms-display: flex;
+  -moz-display: flex;
+  -webkit-display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
@@ -481,6 +496,9 @@ body.lock {
 .home .main-home {
   margin-top: 90px;
   display: flex;
+  -ms-display: flex;
+  -moz-display: flex;
+  -webkit-display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
@@ -490,6 +508,9 @@ body.lock {
   max-width: 340px;
   position: relative;
   display: flex;
+  -ms-display: flex;
+  -moz-display: flex;
+  -webkit-display: flex;
   flex-wrap: wrap;
   transition: 0.5s;
 }
@@ -524,6 +545,9 @@ body.lock {
   opacity: 0;
   transition: 0.5s;
   display: flex;
+  -ms-display: flex;
+  -moz-display: flex;
+  -webkit-display: flex;
   justify-content: flex-end;
   justify-content: space-between;
   align-items: center;
@@ -542,6 +566,7 @@ body.lock {
 }
 .home .main-home .home-section .section-inner .linck-arrow {
   text-decoration: none;
+  -webkit-text-decoration: none;
   margin-right: 30px;
   color: #fff;
 }
@@ -553,6 +578,9 @@ body.lock {
   height: 100%;
   padding: 120px 15px;
   display: flex;
+  -ms-display: flex;
+  -moz-display: flex;
+  -webkit-display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -578,9 +606,13 @@ body.lock {
   left: 0;
   top: 0;
   display: flex;
+  -ms-display: flex;
+  -moz-display: flex;
+  -webkit-display: flex;
   width: 100%;
   height: 100%;
   object-fit: cover;
+  -o-object-fit: cover;
 }
 .abut_us .motto-wrap .motto {
   position: relative;
@@ -647,6 +679,9 @@ body.lock {
 .abut_us .development .wrap {
   padding: 10px;
   display: flex;
+  -ms-display: flex;
+  -moz-display: flex;
+  -webkit-display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
@@ -666,6 +701,9 @@ body.lock {
   top: 50%;
   transform: translate(-50%, -60%);
   display: flex;
+  -ms-display: flex;
+  -moz-display: flex;
+  -webkit-display: flex;
   flex-wrap: wrap;
   z-index: 5;
   width: 67%;
@@ -686,6 +724,9 @@ body.lock {
   width: 100%;
   align-self: flex-end;
   display: flex;
+  -ms-display: flex;
+  -moz-display: flex;
+  -webkit-display: flex;
   justify-content: space-between;
   align-items: center;
 }
@@ -730,12 +771,18 @@ body.lock {
 .abut_us .development .wrap .development-box .development-box--img img {
   transition: 5s;
   display: flex;
+  -ms-display: flex;
+  -moz-display: flex;
+  -webkit-display: flex;
   width: 100%;
   height: 100%;
 }
 .abut_us .search_inf {
   margin-top: 90px;
   display: flex;
+  -ms-display: flex;
+  -moz-display: flex;
+  -webkit-display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
@@ -753,7 +800,11 @@ body.lock {
 }
 .abut_us .search_inf .search_inf-imges img {
   display: flex;
+  -ms-display: flex;
+  -moz-display: flex;
+  -webkit-display: flex;
   object-fit: cover;
+  -o-object-fit: cover;
   margin: 10px auto;
 }
 
@@ -765,6 +816,9 @@ body.lock {
 }
 .works .works-wrap-imges {
   display: flex;
+  -ms-display: flex;
+  -moz-display: flex;
+  -webkit-display: flex;
   flex-wrap: wrap;
 }
 .works .works-wrap-imges .works-img {
@@ -822,6 +876,9 @@ body.lock {
   opacity: 0;
   background: rgba(246, 174, 72, 0);
   display: flex;
+  -ms-display: flex;
+  -moz-display: flex;
+  -webkit-display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -846,12 +903,19 @@ body.lock {
   transition: 4s;
   width: 100%;
   display: flex;
+  -ms-display: flex;
+  -moz-display: flex;
+  -webkit-display: flex;
   object-fit: cover;
+  -o-object-fit: cover;
 }
 .works .works-wrap-btn {
   background: inherit;
   padding: 25px 10px;
   display: flex;
+  -ms-display: flex;
+  -moz-display: flex;
+  -webkit-display: flex;
   justify-content: center;
 }
 .works .works-wrap-btn .work-btn {
@@ -879,6 +943,9 @@ body.lock {
 .adaptete .adaptete-content {
   position: relative;
   display: flex;
+  -ms-display: flex;
+  -moz-display: flex;
+  -webkit-display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
@@ -917,6 +984,9 @@ body.lock {
 }
 .adaptete .adaptete-content .adaptete-inner--imges .main-imges {
   display: flex;
+  -ms-display: flex;
+  -moz-display: flex;
+  -webkit-display: flex;
   align-items: flex-end;
   width: 1500px;
   height: 100%;
@@ -972,6 +1042,7 @@ body.lock {
 .trade_in .trade_in-bg img {
   width: 100%;
   object-fit: cover;
+  -o-object-fit: cover;
   position: absolute;
   left: 0;
   top: 0;
@@ -981,12 +1052,18 @@ body.lock {
   position: relative;
   z-index: 20;
   display: flex;
+  -ms-display: flex;
+  -moz-display: flex;
+  -webkit-display: flex;
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
 }
 .trade_in .main-trade_in .trade_in-wrap--box {
   display: flex;
+  -ms-display: flex;
+  -moz-display: flex;
+  -webkit-display: flex;
   flex-wrap: wrap;
   max-width: 340px;
   padding: 0 5px;
@@ -997,6 +1074,9 @@ body.lock {
   margin: 0 0 15px;
   height: 60px;
   display: flex;
+  -ms-display: flex;
+  -moz-display: flex;
+  -webkit-display: flex;
   align-items: center;
   color: #fff;
 }
@@ -1012,6 +1092,9 @@ body.lock {
 .trade_in .main-trade_in .trade_in-wrap--btn {
   width: 100%;
   display: flex;
+  -ms-display: flex;
+  -moz-display: flex;
+  -webkit-display: flex;
   justify-content: center;
 }
 .trade_in .main-trade_in .trade_in-wrap--btn .trade_in-btn {
@@ -1040,6 +1123,9 @@ body.lock {
 }
 .careful .main-careful {
   display: flex;
+  -ms-display: flex;
+  -moz-display: flex;
+  -webkit-display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
@@ -1060,7 +1146,11 @@ body.lock {
   height: auto;
   width: 100%;
   display: flex;
+  -ms-display: flex;
+  -moz-display: flex;
+  -webkit-display: flex;
   object-fit: cover;
+  -o-object-fit: cover;
 }
 
 .footer {
@@ -1072,6 +1162,9 @@ body.lock {
   position: relative;
   z-index: 20;
   display: flex;
+  -ms-display: flex;
+  -moz-display: flex;
+  -webkit-display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
@@ -1109,6 +1202,9 @@ body.lock {
 .footer .footer-content .footer-form--contact {
   max-width: 500px;
   display: flex;
+  -ms-display: flex;
+  -moz-display: flex;
+  -webkit-display: flex;
   flex-wrap: wrap;
 }
 @media (max-width: 1000px) {
@@ -1201,5 +1297,9 @@ body.lock {
   height: 100%;
   width: 100%;
   object-fit: cover;
+  -o-object-fit: cover;
   display: flex;
+  -ms-display: flex;
+  -moz-display: flex;
+  -webkit-display: flex;
 }
