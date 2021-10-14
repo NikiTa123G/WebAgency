@@ -402,14 +402,8 @@ body.lock {
   opacity: 0.3;
   z-index: 20;
 }
-@media (max-width: 500px) {
-  .global-titele span {
-    left: 50%;
-  }
-}
 @media (max-width: 408px) {
   .global-titele span {
-    left: 39%;
     font-size: 48px;
     white-space: normal;
   }
