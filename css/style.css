@@ -29,16 +29,6 @@ body.lock {
   align-items: center;
   min-height: 100vh;
 }
-@media (max-width: 500px) {
-  .header {
-    height: 115vh;
-  }
-}
-@media (max-width: 375px) {
-  .header {
-    height: 125vh;
-  }
-}
 .header:before {
   content: "";
   display: block;
@@ -229,7 +219,7 @@ body.lock {
 }
 @media (max-width: 768px) {
   .navigation {
-    border: none;
+    border-bottom: 1px solid #333;
   }
 }
 .navigation.fixsed {
@@ -240,12 +230,13 @@ body.lock {
   top: 0;
 }
 .navigation .nav-burger {
+  font-size: 0;
   display: none;
   cursor: pointer;
   z-index: 130;
-  position: absolute;
-  right: 20px;
-  top: 15px;
+  position: relative;
+  margin: 12px 10px;
+  margin-left: auto;
   width: 40px;
   height: 30px;
 }
@@ -256,10 +247,12 @@ body.lock {
 }
 .navigation .nav-burger.active ~ .nav-inner {
   height: 100vh;
+  padding: 30px 10px;
 }
 .navigation .nav-burger.active:before, .navigation .nav-burger.active:after {
+  font-size: 0;
   background: #892326;
-  height: 2.5px;
+  height: 2px;
 }
 .navigation .nav-burger.active:before {
   top: 14px;
@@ -270,14 +263,16 @@ body.lock {
   transform: rotate(-45deg);
 }
 .navigation .nav-burger.active span {
+  font-size: 0;
   display: none;
 }
 .navigation .nav-burger:before, .navigation .nav-burger:after {
+  font-size: 0;
   padding: 0;
   content: "";
   position: absolute;
   width: 100%;
-  height: 2.5px;
+  height: 2px;
   border: none;
   left: 0;
   background: #b1b1b1;
@@ -290,6 +285,7 @@ body.lock {
   top: 0;
 }
 .navigation .nav-burger span {
+  font-size: 0;
   position: absolute;
   background-color: #b1b1b1;
   width: 100%;
@@ -301,8 +297,9 @@ body.lock {
 .navigation .nav-inner {
   padding: 5px 10px;
   list-style-type: none;
-  max-width: 1500px;
-  margin: 10px auto;
+  width: 600px;
+  margin: 7px 0;
+  margin-left: auto;
   display: flex;
   -ms-display: flex;
   -moz-display: flex;
@@ -313,6 +310,7 @@ body.lock {
 }
 @media (max-width: 768px) {
   .navigation .nav-inner {
+    overflow: auto;
     position: fixed;
     z-index: 90;
     top: 50%;
@@ -334,6 +332,11 @@ body.lock {
   }
   .navigation .nav-inner .nav-item .nav-linck.active {
     color: #f6ae48 !important;
+  }
+}
+@media (max-height: 400px) {
+  .navigation .nav-inner {
+    justify-content: flex-start;
   }
 }
 .navigation .nav-inner .nav-item {
@@ -402,7 +405,7 @@ body.lock {
   opacity: 0.3;
   z-index: 20;
 }
-@media (max-width: 408px) {
+@media (max-width: 500px) {
   .global-titele span {
     font-size: 48px;
     white-space: normal;

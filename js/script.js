@@ -47,7 +47,7 @@ for (let i = 0; i < navLincks.length; i++) {
 		scrollTo(el);
 		setTimeout(function() {
 			keyNavLinck = true;
-		}, 700);
+		}, 1000);
 	});
 }
 
@@ -67,7 +67,7 @@ btnScrollTo.addEventListener("click", function(e) {
 function scrollTo(el) {
 	window.scroll({
 		left: 0,
-		top: el.offsetTop - 60,
+		top: el.offsetTop - nav.affsetHeight,
 		behavior: 'smooth'
 	});
 }
